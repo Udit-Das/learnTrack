@@ -107,7 +107,7 @@ public class Main {
                     break;
 
                 case 10:
-                    System.out.print("Enter enrollment ID: ");
+                    System.out.print("Enter enrollment ID : ");
                     int enrollmentId = scanner.nextInt();
                     System.out.print("Enter new status (COMPLETED/CANCELLED): ");
                     String status = scanner.next().toUpperCase();
